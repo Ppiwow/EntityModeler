@@ -36,7 +36,7 @@ namespace EntityModeler.Web
                 return webMvcFolder;
             }
 
-            var webHostFolder = Path.Combine(directoryInfo.FullName, "src", "EntityModeler.Web.Host");
+            var webHostFolder = Path.Combine(directoryInfo.FullName, @"aspnet-core\src", "EntityModeler.Web.Host");
             if (Directory.Exists(webHostFolder))
             {
                 return webHostFolder;
